@@ -23,8 +23,6 @@
 # # 再次连接
 # git remote add origin git@github.com:8ecomeDreamer/8ecomeDreamer.github.io.git master
 
-# git remote -v
-
 # # git push --set-upstream git@github.com:8ecomeDreamer/8ecomeDreamer.github.io.git master
 
 # cd -
