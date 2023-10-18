@@ -4,14 +4,14 @@
 export const siteData = {
   "title": "前端自习室",
   "description": "属于coderWorld的知识体系库",
-  "base": "/",
+  "base": "/gh-pages/",
   "headTags": [],
   "pages": [
     {
       "frontmatter": {},
       "regularPath": "/guide/",
       "relativePath": "guide/README.md",
-      "key": "v-535dffbe",
+      "key": "v-50e62664",
       "path": "/guide/"
     },
     {
@@ -19,9 +19,52 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-479ad4ab",
+      "key": "v-3178d9bb",
       "path": "/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/notebook/",
+      "relativePath": "notebook/README.md",
+      "key": "v-33045dbe",
+      "path": "/notebook/"
+    },
+    {
+      "title": "后端",
+      "frontmatter": {},
+      "regularPath": "/guide/backEnd/demo.html",
+      "relativePath": "guide/backEnd/demo.md",
+      "key": "v-ea66e920",
+      "path": "/guide/backEnd/demo.html"
+    },
+    {
+      "title": "前端",
+      "frontmatter": {},
+      "regularPath": "/guide/frontEnd/demo.html",
+      "relativePath": "guide/frontEnd/demo.md",
+      "key": "v-48d43000",
+      "path": "/guide/frontEnd/demo.html"
     }
   ],
-  "themeConfig": {}
+  "themeConfig": {
+    "nav": [
+      {
+        "text": "首页",
+        "link": "/"
+      },
+      {
+        "text": "关于码外生活",
+        "items": [
+          {
+            "text": "Github",
+            "link": "xxx"
+          },
+          {
+            "text": "掘金",
+            "link": "xxx"
+          }
+        ]
+      }
+    ]
+  }
 }
