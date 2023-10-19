@@ -39,27 +39,100 @@ export const siteData = {
       "path": "/guide/backEnd/demo.html"
     },
     {
+      "title": "算法",
       "frontmatter": {},
-      "regularPath": "/noteBook/",
-      "relativePath": "noteBook/README.md",
-      "key": "v-9de0dc84",
-      "path": "/noteBook/"
+      "regularPath": "/noteBook/algrithum/",
+      "relativePath": "noteBook/algrithum/index.md",
+      "key": "v-211c1b23",
+      "path": "/noteBook/algrithum/"
     },
     {
       "title": "后端",
       "frontmatter": {},
-      "regularPath": "/noteBook/backEnd/demo.html",
-      "relativePath": "noteBook/backEnd/demo.md",
-      "key": "v-3e5c9a5a",
-      "path": "/noteBook/backEnd/demo.html"
+      "regularPath": "/noteBook/backEnd/",
+      "relativePath": "noteBook/backEnd/index.md",
+      "key": "v-2e4f7ab9",
+      "path": "/noteBook/backEnd/"
+    },
+    {
+      "title": "架构",
+      "frontmatter": {},
+      "regularPath": "/noteBook/architecture/",
+      "relativePath": "noteBook/architecture/index.md",
+      "key": "v-3412424e",
+      "path": "/noteBook/architecture/"
+    },
+    {
+      "title": "工作经验",
+      "frontmatter": {},
+      "regularPath": "/noteBook/experience/",
+      "relativePath": "noteBook/experience/index.md",
+      "key": "v-0a58e239",
+      "path": "/noteBook/experience/"
     },
     {
       "title": "前端",
       "frontmatter": {},
-      "regularPath": "/noteBook/frontEnd/demo.html",
-      "relativePath": "noteBook/frontEnd/demo.md",
-      "key": "v-4d9db518",
-      "path": "/noteBook/frontEnd/demo.html"
+      "regularPath": "/noteBook/frontEnd/",
+      "relativePath": "noteBook/frontEnd/index.md",
+      "key": "v-52bad3b9",
+      "path": "/noteBook/frontEnd/"
+    },
+    {
+      "title": "源码阅读",
+      "frontmatter": {},
+      "regularPath": "/noteBook/code_reading/",
+      "relativePath": "noteBook/code_reading/index.md",
+      "key": "v-653dc08e",
+      "path": "/noteBook/code_reading/"
+    },
+    {
+      "title": "设计",
+      "frontmatter": {},
+      "regularPath": "/noteBook/design/",
+      "relativePath": "noteBook/design/index.md",
+      "key": "v-f577768e",
+      "path": "/noteBook/design/"
+    },
+    {
+      "title": "git",
+      "frontmatter": {},
+      "regularPath": "/noteBook/git/",
+      "relativePath": "noteBook/git/index.md",
+      "key": "v-25ee7006",
+      "path": "/noteBook/git/"
+    },
+    {
+      "title": "其他",
+      "frontmatter": {},
+      "regularPath": "/noteBook/others/",
+      "relativePath": "noteBook/others/index.md",
+      "key": "v-7a7df5ce",
+      "path": "/noteBook/others/"
+    },
+    {
+      "title": "运维",
+      "frontmatter": {},
+      "regularPath": "/noteBook/operate/",
+      "relativePath": "noteBook/operate/index.md",
+      "key": "v-aab106ce",
+      "path": "/noteBook/operate/"
+    },
+    {
+      "title": "编程利器",
+      "frontmatter": {},
+      "regularPath": "/noteBook/resources/",
+      "relativePath": "noteBook/resources/index.md",
+      "key": "v-8bfb17d2",
+      "path": "/noteBook/resources/"
+    },
+    {
+      "title": "sql",
+      "frontmatter": {},
+      "regularPath": "/noteBook/sql/",
+      "relativePath": "noteBook/sql/index.md",
+      "key": "v-44b43005",
+      "path": "/noteBook/sql/"
     }
   ],
   "themeConfig": {
@@ -90,13 +163,24 @@ export const siteData = {
         "children": []
       },
       {
+        "title": "设计",
+        "path": "/noteBook/design",
+        "collapsable": false,
+        "children": [
+          {
+            "title": "设计",
+            "path": "/noteBook/design/index.md"
+          }
+        ]
+      },
+      {
         "title": "前端",
         "path": "/noteBook/frontEnd",
         "collapsable": false,
         "children": [
           {
-            "title": "demo",
-            "path": "/noteBook/frontEnd/demo.md"
+            "title": "前端",
+            "path": "/noteBook/frontEnd/index.md"
           }
         ]
       },
@@ -106,8 +190,96 @@ export const siteData = {
         "collapsable": false,
         "children": [
           {
-            "title": "demo",
-            "path": "/noteBook/backEnd/demo.md"
+            "title": "后端",
+            "path": "/noteBook/backEnd/index.md"
+          }
+        ]
+      },
+      {
+        "title": "sql",
+        "path": "/noteBook/sql",
+        "collapsable": false,
+        "children": [
+          {
+            "title": "sql",
+            "path": "/noteBook/sql/index.md"
+          }
+        ]
+      },
+      {
+        "title": "git",
+        "path": "/noteBook/git",
+        "collapsable": false,
+        "children": [
+          {
+            "title": "git",
+            "path": "/noteBook/git/index.md"
+          }
+        ]
+      },
+      {
+        "title": "算法",
+        "path": "/noteBook/algrithum",
+        "collapsable": false,
+        "children": [
+          {
+            "title": "算法",
+            "path": "/noteBook/algrithum/index.md"
+          }
+        ]
+      },
+      {
+        "title": "运维",
+        "path": "/noteBook/operate",
+        "collapsable": false,
+        "children": [
+          {
+            "title": "运维",
+            "path": "/noteBook/operate/index.md"
+          }
+        ]
+      },
+      {
+        "title": "源码阅读",
+        "path": "/noteBook/code_reading",
+        "collapsable": false,
+        "children": [
+          {
+            "title": "源码阅读",
+            "path": "/noteBook/code_reading/index.md"
+          }
+        ]
+      },
+      {
+        "title": "工作经验",
+        "path": "/noteBook/experience",
+        "collapsable": false,
+        "children": [
+          {
+            "title": "工作经验",
+            "path": "/noteBook/experience/index.md"
+          }
+        ]
+      },
+      {
+        "title": "优秀资源",
+        "path": "/noteBook/resources",
+        "collapsable": false,
+        "children": [
+          {
+            "title": "优秀资源",
+            "path": "/noteBook/resources/index.md"
+          }
+        ]
+      },
+      {
+        "title": "其他",
+        "path": "/noteBook/others",
+        "collapsable": false,
+        "children": [
+          {
+            "title": "其他",
+            "path": "/noteBook/others/index.md"
           }
         ]
       }

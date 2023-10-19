@@ -27,16 +27,74 @@ module.exports = {
         ],
       },
       {
+        title: "设计",
+        path: "/noteBook/design",
+        collapsable: false, // 不折叠
+        children: [{ title: "设计", path: "/noteBook/design/index.md" }],
+      },
+      {
         title: "前端",
         path: "/noteBook/frontEnd",
         collapsable: false, // 不折叠
-        children: [{ title: "demo", path: "/noteBook/frontEnd/demo.md" }],
+        children: [{ title: "前端", path: "/noteBook/frontEnd/index.md" }],
       },
       {
         title: "后端",
         path: "/noteBook/backEnd",
         collapsable: false, // 不折叠
-        children: [{ title: "demo", path: "/noteBook/backEnd/demo.md" }],
+        children: [{ title: "后端", path: "/noteBook/backEnd/index.md" }],
+      },
+      {
+        title: "sql",
+        path: "/noteBook/sql",
+        collapsable: false, // 不折叠
+        children: [{ title: "sql", path: "/noteBook/sql/index.md" }],
+      },
+      {
+        title: "git",
+        path: "/noteBook/git",
+        collapsable: false, // 不折叠
+        children: [{ title: "git", path: "/noteBook/git/index.md" }],
+      },
+      {
+        title: "算法",
+        path: "/noteBook/algrithum",
+        collapsable: false, // 不折叠
+        children: [{ title: "算法", path: "/noteBook/algrithum/index.md" }],
+      },
+      {
+        title: "运维",
+        path: "/noteBook/operate",
+        collapsable: false, // 不折叠
+        children: [{ title: "运维", path: "/noteBook/operate/index.md" }],
+      },
+      {
+        title: "源码阅读",
+        path: "/noteBook/code_reading",
+        collapsable: false, // 不折叠
+        children: [
+          { title: "源码阅读", path: "/noteBook/code_reading/index.md" },
+        ],
+      },
+      {
+        title: "工作经验",
+        path: "/noteBook/experience",
+        collapsable: false, // 不折叠
+        children: [
+          { title: "工作经验", path: "/noteBook/experience/index.md" },
+        ],
+      },
+      {
+        title: "优秀资源",
+        path: "/noteBook/resources",
+        collapsable: false, // 不折叠
+        children: [{ title: "优秀资源", path: "/noteBook/resources/index.md" }],
+      },
+      {
+        title: "其他",
+        path: "/noteBook/others",
+        collapsable: false, // 不折叠
+        children: [{ title: "其他", path: "/noteBook/others/index.md" }],
       },
     ],
   },

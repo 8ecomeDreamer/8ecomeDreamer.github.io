@@ -49,32 +49,148 @@ export const routes = [
     },
   },
   {
-    name: "v-9de0dc84",
-    path: "/noteBook/",
+    name: "v-211c1b23",
+    path: "/noteBook/algrithum/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-9de0dc84").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-211c1b23").then(next)
     },
   },
   {
-    path: "/noteBook/index.html",
-    redirect: "/noteBook/"
+    path: "/noteBook/algrithum/index.html",
+    redirect: "/noteBook/algrithum/"
   },
   {
-    name: "v-3e5c9a5a",
-    path: "/noteBook/backEnd/demo.html",
+    name: "v-2e4f7ab9",
+    path: "/noteBook/backEnd/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3e5c9a5a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2e4f7ab9").then(next)
     },
   },
   {
-    name: "v-4d9db518",
-    path: "/noteBook/frontEnd/demo.html",
+    path: "/noteBook/backEnd/index.html",
+    redirect: "/noteBook/backEnd/"
+  },
+  {
+    name: "v-3412424e",
+    path: "/noteBook/architecture/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4d9db518").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-3412424e").then(next)
     },
+  },
+  {
+    path: "/noteBook/architecture/index.html",
+    redirect: "/noteBook/architecture/"
+  },
+  {
+    name: "v-0a58e239",
+    path: "/noteBook/experience/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0a58e239").then(next)
+    },
+  },
+  {
+    path: "/noteBook/experience/index.html",
+    redirect: "/noteBook/experience/"
+  },
+  {
+    name: "v-52bad3b9",
+    path: "/noteBook/frontEnd/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-52bad3b9").then(next)
+    },
+  },
+  {
+    path: "/noteBook/frontEnd/index.html",
+    redirect: "/noteBook/frontEnd/"
+  },
+  {
+    name: "v-653dc08e",
+    path: "/noteBook/code_reading/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-653dc08e").then(next)
+    },
+  },
+  {
+    path: "/noteBook/code_reading/index.html",
+    redirect: "/noteBook/code_reading/"
+  },
+  {
+    name: "v-f577768e",
+    path: "/noteBook/design/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-f577768e").then(next)
+    },
+  },
+  {
+    path: "/noteBook/design/index.html",
+    redirect: "/noteBook/design/"
+  },
+  {
+    name: "v-25ee7006",
+    path: "/noteBook/git/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-25ee7006").then(next)
+    },
+  },
+  {
+    path: "/noteBook/git/index.html",
+    redirect: "/noteBook/git/"
+  },
+  {
+    name: "v-7a7df5ce",
+    path: "/noteBook/others/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7a7df5ce").then(next)
+    },
+  },
+  {
+    path: "/noteBook/others/index.html",
+    redirect: "/noteBook/others/"
+  },
+  {
+    name: "v-aab106ce",
+    path: "/noteBook/operate/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-aab106ce").then(next)
+    },
+  },
+  {
+    path: "/noteBook/operate/index.html",
+    redirect: "/noteBook/operate/"
+  },
+  {
+    name: "v-8bfb17d2",
+    path: "/noteBook/resources/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-8bfb17d2").then(next)
+    },
+  },
+  {
+    path: "/noteBook/resources/index.html",
+    redirect: "/noteBook/resources/"
+  },
+  {
+    name: "v-44b43005",
+    path: "/noteBook/sql/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-44b43005").then(next)
+    },
+  },
+  {
+    path: "/noteBook/sql/index.html",
+    redirect: "/noteBook/sql/"
   },
   {
     path: '*',
