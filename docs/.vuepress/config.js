@@ -17,6 +17,7 @@ module.exports = {
         ],
       },
     ],
+    //  children属性必须不为空，需要添加其他页面时需要将含有index.md的子项去掉
     sidebar: [
       {
         title: "站点介绍",
@@ -81,7 +82,10 @@ module.exports = {
         path: "/noteBook/experience",
         collapsable: false, // 不折叠
         children: [
-          { title: "工作经验", path: "/noteBook/experience/index.md" },
+          {
+            title: "登录",
+            path: "/noteBook/experience/login.md",
+          },
         ],
       },
       {
