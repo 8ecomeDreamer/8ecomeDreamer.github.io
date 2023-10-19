@@ -8,67 +8,12 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "前端自习室",
-      "frontmatter": {},
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-3178d9bb",
-      "path": "/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-50e62664",
-      "path": "/guide/"
-    },
-    {
-      "title": "后端",
-      "frontmatter": {},
-      "regularPath": "/guide/backEnd/demo.html",
-      "relativePath": "guide/backEnd/demo.md",
-      "key": "v-ea66e920",
-      "path": "/guide/backEnd/demo.html"
-    },
-    {
       "title": "算法",
       "frontmatter": {},
       "regularPath": "/noteBook/algrithum/",
       "relativePath": "noteBook/algrithum/index.md",
       "key": "v-211c1b23",
       "path": "/noteBook/algrithum/"
-    },
-    {
-      "title": "前端",
-      "frontmatter": {},
-      "regularPath": "/guide/frontEnd/demo.html",
-      "relativePath": "guide/frontEnd/demo.md",
-      "key": "v-48d43000",
-      "path": "/guide/frontEnd/demo.html"
-    },
-    {
-      "title": "架构",
-      "frontmatter": {},
-      "regularPath": "/noteBook/architecture/",
-      "relativePath": "noteBook/architecture/index.md",
-      "key": "v-3412424e",
-      "path": "/noteBook/architecture/"
-    },
-    {
-      "title": "后端",
-      "frontmatter": {},
-      "regularPath": "/noteBook/backEnd/",
-      "relativePath": "noteBook/backEnd/index.md",
-      "key": "v-2e4f7ab9",
-      "path": "/noteBook/backEnd/"
-    },
-    {
-      "title": "设计",
-      "frontmatter": {},
-      "regularPath": "/noteBook/design/",
-      "relativePath": "noteBook/design/index.md",
-      "key": "v-f577768e",
-      "path": "/noteBook/design/"
     },
     {
       "title": "源码阅读",
@@ -79,6 +24,30 @@ export const siteData = {
       "path": "/noteBook/code_reading/"
     },
     {
+      "title": "架构",
+      "frontmatter": {},
+      "regularPath": "/noteBook/architecture/",
+      "relativePath": "noteBook/architecture/index.md",
+      "key": "v-3412424e",
+      "path": "/noteBook/architecture/"
+    },
+    {
+      "title": "前端自习室",
+      "frontmatter": {},
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-3178d9bb",
+      "path": "/"
+    },
+    {
+      "title": "设计",
+      "frontmatter": {},
+      "regularPath": "/noteBook/design/",
+      "relativePath": "noteBook/design/index.md",
+      "key": "v-f577768e",
+      "path": "/noteBook/design/"
+    },
+    {
       "title": "工作经验",
       "frontmatter": {},
       "regularPath": "/noteBook/experience/",
@@ -87,20 +56,20 @@ export const siteData = {
       "path": "/noteBook/experience/"
     },
     {
-      "title": "前端",
-      "frontmatter": {},
-      "regularPath": "/noteBook/frontEnd/",
-      "relativePath": "noteBook/frontEnd/index.md",
-      "key": "v-52bad3b9",
-      "path": "/noteBook/frontEnd/"
-    },
-    {
       "title": "登录",
       "frontmatter": {},
       "regularPath": "/noteBook/experience/login.html",
       "relativePath": "noteBook/experience/login.md",
       "key": "v-62021ae0",
       "path": "/noteBook/experience/login.html"
+    },
+    {
+      "title": "前端",
+      "frontmatter": {},
+      "regularPath": "/noteBook/frontEnd/",
+      "relativePath": "noteBook/frontEnd/index.md",
+      "key": "v-52bad3b9",
+      "path": "/noteBook/frontEnd/"
     },
     {
       "title": "git",
@@ -127,6 +96,14 @@ export const siteData = {
       "path": "/noteBook/others/"
     },
     {
+      "title": "sql",
+      "frontmatter": {},
+      "regularPath": "/noteBook/sql/",
+      "relativePath": "noteBook/sql/index.md",
+      "key": "v-44b43005",
+      "path": "/noteBook/sql/"
+    },
+    {
       "title": "编程利器",
       "frontmatter": {},
       "regularPath": "/noteBook/resources/",
@@ -135,12 +112,12 @@ export const siteData = {
       "path": "/noteBook/resources/"
     },
     {
-      "title": "sql",
+      "title": "后端",
       "frontmatter": {},
-      "regularPath": "/noteBook/sql/",
-      "relativePath": "noteBook/sql/index.md",
-      "key": "v-44b43005",
-      "path": "/noteBook/sql/"
+      "regularPath": "/noteBook/backEnd/",
+      "relativePath": "noteBook/backEnd/index.md",
+      "key": "v-2e4f7ab9",
+      "path": "/noteBook/backEnd/"
     }
   ],
   "themeConfig": {
@@ -167,129 +144,7 @@ export const siteData = {
       {
         "title": "站点介绍",
         "path": "/",
-        "collapsable": true,
-        "children": []
-      },
-      {
-        "title": "设计",
-        "path": "/noteBook/design",
-        "collapsable": false,
-        "children": [
-          {
-            "title": "设计",
-            "path": "/noteBook/design/index.md"
-          }
-        ]
-      },
-      {
-        "title": "前端",
-        "path": "/noteBook/frontEnd",
-        "collapsable": false,
-        "children": [
-          {
-            "title": "前端",
-            "path": "/noteBook/frontEnd/index.md"
-          }
-        ]
-      },
-      {
-        "title": "后端",
-        "path": "/noteBook/backEnd",
-        "collapsable": false,
-        "children": [
-          {
-            "title": "后端",
-            "path": "/noteBook/backEnd/index.md"
-          }
-        ]
-      },
-      {
-        "title": "sql",
-        "path": "/noteBook/sql",
-        "collapsable": false,
-        "children": [
-          {
-            "title": "sql",
-            "path": "/noteBook/sql/index.md"
-          }
-        ]
-      },
-      {
-        "title": "git",
-        "path": "/noteBook/git",
-        "collapsable": false,
-        "children": [
-          {
-            "title": "git",
-            "path": "/noteBook/git/index.md"
-          }
-        ]
-      },
-      {
-        "title": "算法",
-        "path": "/noteBook/algrithum",
-        "collapsable": false,
-        "children": [
-          {
-            "title": "算法",
-            "path": "/noteBook/algrithum/index.md"
-          }
-        ]
-      },
-      {
-        "title": "运维",
-        "path": "/noteBook/operate",
-        "collapsable": false,
-        "children": [
-          {
-            "title": "运维",
-            "path": "/noteBook/operate/index.md"
-          }
-        ]
-      },
-      {
-        "title": "源码阅读",
-        "path": "/noteBook/code_reading",
-        "collapsable": false,
-        "children": [
-          {
-            "title": "源码阅读",
-            "path": "/noteBook/code_reading/index.md"
-          }
-        ]
-      },
-      {
-        "title": "工作经验",
-        "path": "/noteBook/experience",
-        "collapsable": false,
-        "children": [
-          {
-            "title": "登录",
-            "path": "/noteBook/experience/login.md"
-          }
-        ]
-      },
-      {
-        "title": "优秀资源",
-        "path": "/noteBook/resources",
-        "collapsable": false,
-        "children": [
-          {
-            "title": "优秀资源",
-            "path": "/noteBook/resources/index.md"
-          }
-        ]
-      },
-      {
-        "title": "其他",
-        "path": "/noteBook/others",
-        "collapsable": false,
-        "children": [
-          {
-            "title": "其他",
-            "path": "/noteBook/others/index.md"
-          }
-        ]
+        "collapsable": true
       }
     ]
   }
