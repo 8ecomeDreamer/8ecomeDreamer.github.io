@@ -4,16 +4,9 @@
 export const siteData = {
   "title": "前端自习室",
   "description": "属于coderWorld的知识体系库",
-  "base": "/gh-pages/",
+  "base": "/",
   "headTags": [],
   "pages": [
-    {
-      "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-50e62664",
-      "path": "/guide/"
-    },
     {
       "title": "前端自习室",
       "frontmatter": {},
@@ -24,10 +17,18 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/notebook/",
-      "relativePath": "notebook/README.md",
-      "key": "v-33045dbe",
-      "path": "/notebook/"
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-50e62664",
+      "path": "/guide/"
+    },
+    {
+      "title": "前端",
+      "frontmatter": {},
+      "regularPath": "/guide/frontEnd/demo.html",
+      "relativePath": "guide/frontEnd/demo.md",
+      "key": "v-48d43000",
+      "path": "/guide/frontEnd/demo.html"
     },
     {
       "title": "后端",
@@ -38,12 +39,27 @@ export const siteData = {
       "path": "/guide/backEnd/demo.html"
     },
     {
+      "frontmatter": {},
+      "regularPath": "/noteBook/",
+      "relativePath": "noteBook/README.md",
+      "key": "v-9de0dc84",
+      "path": "/noteBook/"
+    },
+    {
+      "title": "后端",
+      "frontmatter": {},
+      "regularPath": "/noteBook/backEnd/demo.html",
+      "relativePath": "noteBook/backEnd/demo.md",
+      "key": "v-3e5c9a5a",
+      "path": "/noteBook/backEnd/demo.html"
+    },
+    {
       "title": "前端",
       "frontmatter": {},
-      "regularPath": "/guide/frontEnd/demo.html",
-      "relativePath": "guide/frontEnd/demo.md",
-      "key": "v-48d43000",
-      "path": "/guide/frontEnd/demo.html"
+      "regularPath": "/noteBook/frontEnd/demo.html",
+      "relativePath": "noteBook/frontEnd/demo.md",
+      "key": "v-4d9db518",
+      "path": "/noteBook/frontEnd/demo.html"
     }
   ],
   "themeConfig": {
@@ -57,11 +73,41 @@ export const siteData = {
         "items": [
           {
             "text": "Github",
-            "link": "xxx"
+            "link": "https://github.com/8ecomeDreamer"
           },
           {
             "text": "掘金",
-            "link": "xxx"
+            "link": "https://juejin.cn/user/2331413035352680"
+          }
+        ]
+      }
+    ],
+    "sidebar": [
+      {
+        "title": "站点介绍",
+        "path": "/",
+        "collapsable": true,
+        "children": []
+      },
+      {
+        "title": "前端",
+        "path": "/noteBook/frontEnd",
+        "collapsable": false,
+        "children": [
+          {
+            "title": "demo",
+            "path": "/noteBook/frontEnd/demo.md"
+          }
+        ]
+      },
+      {
+        "title": "后端",
+        "path": "/noteBook/backEnd",
+        "collapsable": false,
+        "children": [
+          {
+            "title": "demo",
+            "path": "/noteBook/backEnd/demo.md"
           }
         ]
       }

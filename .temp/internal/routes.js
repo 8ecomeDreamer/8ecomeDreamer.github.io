@@ -9,18 +9,6 @@ import GlobalLayout from "E:\\github\\front_lounge\\8ecomeDreamer.github.io\\nod
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-50e62664",
-    path: "/guide/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-50e62664").then(next)
-    },
-  },
-  {
-    path: "/guide/index.html",
-    redirect: "/guide/"
-  },
-  {
     name: "v-3178d9bb",
     path: "/",
     component: GlobalLayout,
@@ -33,16 +21,24 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-33045dbe",
-    path: "/notebook/",
+    name: "v-50e62664",
+    path: "/guide/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-33045dbe").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-50e62664").then(next)
     },
   },
   {
-    path: "/notebook/index.html",
-    redirect: "/notebook/"
+    path: "/guide/index.html",
+    redirect: "/guide/"
+  },
+  {
+    name: "v-48d43000",
+    path: "/guide/frontEnd/demo.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-48d43000").then(next)
+    },
   },
   {
     name: "v-ea66e920",
@@ -53,11 +49,31 @@ export const routes = [
     },
   },
   {
-    name: "v-48d43000",
-    path: "/guide/frontEnd/demo.html",
+    name: "v-9de0dc84",
+    path: "/noteBook/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-48d43000").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-9de0dc84").then(next)
+    },
+  },
+  {
+    path: "/noteBook/index.html",
+    redirect: "/noteBook/"
+  },
+  {
+    name: "v-3e5c9a5a",
+    path: "/noteBook/backEnd/demo.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3e5c9a5a").then(next)
+    },
+  },
+  {
+    name: "v-4d9db518",
+    path: "/noteBook/frontEnd/demo.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4d9db518").then(next)
     },
   },
   {
