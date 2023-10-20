@@ -9,28 +9,16 @@ import GlobalLayout from "E:\\github\\front_lounge\\8ecomeDreamer.github.io\\nod
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-211c1b23",
-    path: "/noteBook/algrithum/",
+    name: "v-9de0dc84",
+    path: "/noteBook/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-211c1b23").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-9de0dc84").then(next)
     },
   },
   {
-    path: "/noteBook/algrithum/index.html",
-    redirect: "/noteBook/algrithum/"
-  },
-  {
-    name: "v-653dc08e",
-    path: "/noteBook/code_reading/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-653dc08e").then(next)
-    },
-  },
-  {
-    path: "/noteBook/code_reading/index.html",
-    redirect: "/noteBook/code_reading/"
+    path: "/noteBook/index.html",
+    redirect: "/noteBook/"
   },
   {
     name: "v-3412424e",
@@ -45,16 +33,16 @@ export const routes = [
     redirect: "/noteBook/architecture/"
   },
   {
-    name: "v-3178d9bb",
-    path: "/",
+    name: "v-211c1b23",
+    path: "/noteBook/algrithum/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3178d9bb").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-211c1b23").then(next)
     },
   },
   {
-    path: "/index.html",
-    redirect: "/"
+    path: "/noteBook/algrithum/index.html",
+    redirect: "/noteBook/algrithum/"
   },
   {
     name: "v-f577768e",
@@ -67,6 +55,54 @@ export const routes = [
   {
     path: "/noteBook/design/index.html",
     redirect: "/noteBook/design/"
+  },
+  {
+    name: "v-2e4f7ab9",
+    path: "/noteBook/backEnd/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2e4f7ab9").then(next)
+    },
+  },
+  {
+    path: "/noteBook/backEnd/index.html",
+    redirect: "/noteBook/backEnd/"
+  },
+  {
+    name: "v-37b4eae4",
+    path: "/noteBook/design/frontEnd/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-37b4eae4").then(next)
+    },
+  },
+  {
+    path: "/noteBook/design/frontEnd/index.html",
+    redirect: "/noteBook/design/frontEnd/"
+  },
+  {
+    name: "v-653dc08e",
+    path: "/noteBook/code_reading/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-653dc08e").then(next)
+    },
+  },
+  {
+    path: "/noteBook/code_reading/index.html",
+    redirect: "/noteBook/code_reading/"
+  },
+  {
+    name: "v-67ca7ae8",
+    path: "/noteBook/design/kitchen/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-67ca7ae8").then(next)
+    },
+  },
+  {
+    path: "/noteBook/design/kitchen/index.html",
+    redirect: "/noteBook/design/kitchen/"
   },
   {
     name: "v-0a58e239",
@@ -137,18 +173,6 @@ export const routes = [
     redirect: "/noteBook/others/"
   },
   {
-    name: "v-44b43005",
-    path: "/noteBook/sql/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-44b43005").then(next)
-    },
-  },
-  {
-    path: "/noteBook/sql/index.html",
-    redirect: "/noteBook/sql/"
-  },
-  {
     name: "v-8bfb17d2",
     path: "/noteBook/resources/",
     component: GlobalLayout,
@@ -161,16 +185,28 @@ export const routes = [
     redirect: "/noteBook/resources/"
   },
   {
-    name: "v-2e4f7ab9",
-    path: "/noteBook/backEnd/",
+    name: "v-44b43005",
+    path: "/noteBook/sql/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2e4f7ab9").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-44b43005").then(next)
     },
   },
   {
-    path: "/noteBook/backEnd/index.html",
-    redirect: "/noteBook/backEnd/"
+    path: "/noteBook/sql/index.html",
+    redirect: "/noteBook/sql/"
+  },
+  {
+    name: "v-63663d9c",
+    path: "/withoutCode/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-63663d9c").then(next)
+    },
+  },
+  {
+    path: "/withoutCode/index.html",
+    redirect: "/withoutCode/"
   },
   {
     path: '*',

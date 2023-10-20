@@ -8,20 +8,12 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "title": "算法",
+      "title": "前端自习室",
       "frontmatter": {},
-      "regularPath": "/noteBook/algrithum/",
-      "relativePath": "noteBook/algrithum/index.md",
-      "key": "v-211c1b23",
-      "path": "/noteBook/algrithum/"
-    },
-    {
-      "title": "源码阅读",
-      "frontmatter": {},
-      "regularPath": "/noteBook/code_reading/",
-      "relativePath": "noteBook/code_reading/index.md",
-      "key": "v-653dc08e",
-      "path": "/noteBook/code_reading/"
+      "regularPath": "/noteBook/",
+      "relativePath": "noteBook/README.md",
+      "key": "v-9de0dc84",
+      "path": "/noteBook/"
     },
     {
       "title": "架构",
@@ -32,20 +24,52 @@ export const siteData = {
       "path": "/noteBook/architecture/"
     },
     {
-      "title": "前端自习室",
+      "title": "算法",
       "frontmatter": {},
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-3178d9bb",
-      "path": "/"
+      "regularPath": "/noteBook/algrithum/",
+      "relativePath": "noteBook/algrithum/index.md",
+      "key": "v-211c1b23",
+      "path": "/noteBook/algrithum/"
     },
     {
-      "title": "设计",
+      "title": "设计厨房",
       "frontmatter": {},
       "regularPath": "/noteBook/design/",
       "relativePath": "noteBook/design/index.md",
       "key": "v-f577768e",
       "path": "/noteBook/design/"
+    },
+    {
+      "title": "后端",
+      "frontmatter": {},
+      "regularPath": "/noteBook/backEnd/",
+      "relativePath": "noteBook/backEnd/index.md",
+      "key": "v-2e4f7ab9",
+      "path": "/noteBook/backEnd/"
+    },
+    {
+      "title": "前端",
+      "frontmatter": {},
+      "regularPath": "/noteBook/design/frontEnd/",
+      "relativePath": "noteBook/design/frontEnd/index.md",
+      "key": "v-37b4eae4",
+      "path": "/noteBook/design/frontEnd/"
+    },
+    {
+      "title": "源码阅读",
+      "frontmatter": {},
+      "regularPath": "/noteBook/code_reading/",
+      "relativePath": "noteBook/code_reading/index.md",
+      "key": "v-653dc08e",
+      "path": "/noteBook/code_reading/"
+    },
+    {
+      "title": "设计厨房",
+      "frontmatter": {},
+      "regularPath": "/noteBook/design/kitchen/",
+      "relativePath": "noteBook/design/kitchen/index.md",
+      "key": "v-67ca7ae8",
+      "path": "/noteBook/design/kitchen/"
     },
     {
       "title": "工作经验",
@@ -96,14 +120,6 @@ export const siteData = {
       "path": "/noteBook/others/"
     },
     {
-      "title": "sql",
-      "frontmatter": {},
-      "regularPath": "/noteBook/sql/",
-      "relativePath": "noteBook/sql/index.md",
-      "key": "v-44b43005",
-      "path": "/noteBook/sql/"
-    },
-    {
       "title": "编程利器",
       "frontmatter": {},
       "regularPath": "/noteBook/resources/",
@@ -112,19 +128,31 @@ export const siteData = {
       "path": "/noteBook/resources/"
     },
     {
-      "title": "后端",
+      "title": "sql",
       "frontmatter": {},
-      "regularPath": "/noteBook/backEnd/",
-      "relativePath": "noteBook/backEnd/index.md",
-      "key": "v-2e4f7ab9",
-      "path": "/noteBook/backEnd/"
+      "regularPath": "/noteBook/sql/",
+      "relativePath": "noteBook/sql/index.md",
+      "key": "v-44b43005",
+      "path": "/noteBook/sql/"
+    },
+    {
+      "title": "生活不止代码",
+      "frontmatter": {},
+      "regularPath": "/withoutCode/",
+      "relativePath": "withoutCode/README.md",
+      "key": "v-63663d9c",
+      "path": "/withoutCode/"
     }
   ],
   "themeConfig": {
     "nav": [
       {
-        "text": "首页",
-        "link": "/"
+        "text": "技术笔记",
+        "link": "/noteBook/"
+      },
+      {
+        "text": "生活不止代码",
+        "link": "/withoutCode/"
       },
       {
         "text": "关于码外生活",
@@ -140,12 +168,85 @@ export const siteData = {
         ]
       }
     ],
-    "sidebar": [
-      {
-        "title": "站点介绍",
-        "path": "/",
-        "collapsable": true
-      }
-    ]
+    "sidebar": {
+      "/noteBook/": [
+        {
+          "title": "站点介绍",
+          "path": "/noteBook/",
+          "collapsable": true,
+          "children": []
+        },
+        {
+          "title": "设计",
+          "path": "/noteBook/design/",
+          "collapsable": false,
+          "sidebarDepth": 5,
+          "children": []
+        },
+        {
+          "title": "前端",
+          "path": "/noteBook/frontEnd/",
+          "collapsable": false
+        },
+        {
+          "title": "后端",
+          "path": "/noteBook/backEnd/",
+          "collapsable": false
+        },
+        {
+          "title": "sql",
+          "path": "/noteBook/sql/",
+          "collapsable": false
+        },
+        {
+          "title": "git",
+          "path": "/noteBook/git/",
+          "collapsable": false
+        },
+        {
+          "title": "算法",
+          "path": "/noteBook/algrithum/",
+          "collapsable": false
+        },
+        {
+          "title": "运维",
+          "path": "/noteBook/operate/",
+          "collapsable": false
+        },
+        {
+          "title": "源码阅读",
+          "path": "/noteBook/code_reading/",
+          "collapsable": false,
+          "children": []
+        },
+        {
+          "title": "工作经验",
+          "path": "/noteBook/experience/",
+          "collapsable": false,
+          "children": []
+        },
+        {
+          "title": "优秀资源",
+          "path": "/noteBook/resources/",
+          "collapsable": false,
+          "children": []
+        },
+        {
+          "title": "其他",
+          "path": "/noteBook/others/",
+          "collapsable": false
+        }
+      ],
+      "/withoutCode/": [
+        {
+          "title": "生活不止代码",
+          "path": "/withoutCode/",
+          "collapsable": true
+        }
+      ],
+      "/": [
+        ""
+      ]
+    }
   }
 }
