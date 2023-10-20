@@ -32,17 +32,7 @@ module.exports = {
           path: "/noteBook/design/",
           collapsable: false, // 不折叠
           sidebarDepth: 5,
-          children: [
-            // 多级嵌套看这里的目录结构
-            // {
-            //   title: "厨房",
-            //   path: "/noteBook/design/kitchen/",
-            // },
-            // {
-            //   title: "前端",
-            //   path: "/noteBook/design/frontEnd/",
-            // },
-          ],
+          children: [],
         },
         {
           title: "前端",
@@ -54,7 +44,16 @@ module.exports = {
           title: "后端",
           path: "/noteBook/backEnd/",
           collapsable: false, // 不折叠
-          // children: [{ title: "后端", path: "/noteBook/backEnd/index.md" }],
+          // 多级嵌套看这里的目录结构
+          children: [
+            {
+              title: "java",
+              path: "/noteBook/backEnd/java/",
+              children: [
+                { title: "api速记", path: "/noteBook/backEnd/java/api/" },
+              ],
+            },
+          ],
         },
         {
           title: "sql",

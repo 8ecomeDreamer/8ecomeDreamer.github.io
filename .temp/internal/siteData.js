@@ -16,28 +16,12 @@ export const siteData = {
       "path": "/noteBook/"
     },
     {
-      "title": "架构",
-      "frontmatter": {},
-      "regularPath": "/noteBook/architecture/",
-      "relativePath": "noteBook/architecture/index.md",
-      "key": "v-3412424e",
-      "path": "/noteBook/architecture/"
-    },
-    {
       "title": "算法",
       "frontmatter": {},
       "regularPath": "/noteBook/algrithum/",
       "relativePath": "noteBook/algrithum/index.md",
       "key": "v-211c1b23",
       "path": "/noteBook/algrithum/"
-    },
-    {
-      "title": "设计厨房",
-      "frontmatter": {},
-      "regularPath": "/noteBook/design/",
-      "relativePath": "noteBook/design/index.md",
-      "key": "v-f577768e",
-      "path": "/noteBook/design/"
     },
     {
       "title": "后端",
@@ -48,12 +32,28 @@ export const siteData = {
       "path": "/noteBook/backEnd/"
     },
     {
-      "title": "前端",
+      "title": "架构",
       "frontmatter": {},
-      "regularPath": "/noteBook/design/frontEnd/",
-      "relativePath": "noteBook/design/frontEnd/index.md",
-      "key": "v-37b4eae4",
-      "path": "/noteBook/design/frontEnd/"
+      "regularPath": "/noteBook/architecture/",
+      "relativePath": "noteBook/architecture/index.md",
+      "key": "v-3412424e",
+      "path": "/noteBook/architecture/"
+    },
+    {
+      "title": "api 速记",
+      "frontmatter": {},
+      "regularPath": "/noteBook/backEnd/java/api/",
+      "relativePath": "noteBook/backEnd/java/api/index.md",
+      "key": "v-889b454e",
+      "path": "/noteBook/backEnd/java/api/"
+    },
+    {
+      "title": "关于java",
+      "frontmatter": {},
+      "regularPath": "/noteBook/backEnd/java/",
+      "relativePath": "noteBook/backEnd/java/index.md",
+      "key": "v-0f73d5c6",
+      "path": "/noteBook/backEnd/java/"
     },
     {
       "title": "源码阅读",
@@ -62,6 +62,22 @@ export const siteData = {
       "relativePath": "noteBook/code_reading/index.md",
       "key": "v-653dc08e",
       "path": "/noteBook/code_reading/"
+    },
+    {
+      "title": "设计厨房",
+      "frontmatter": {},
+      "regularPath": "/noteBook/design/",
+      "relativePath": "noteBook/design/index.md",
+      "key": "v-f577768e",
+      "path": "/noteBook/design/"
+    },
+    {
+      "title": "前端",
+      "frontmatter": {},
+      "regularPath": "/noteBook/design/frontEnd/",
+      "relativePath": "noteBook/design/frontEnd/index.md",
+      "key": "v-37b4eae4",
+      "path": "/noteBook/design/frontEnd/"
     },
     {
       "title": "设计厨房",
@@ -191,7 +207,19 @@ export const siteData = {
         {
           "title": "后端",
           "path": "/noteBook/backEnd/",
-          "collapsable": false
+          "collapsable": false,
+          "children": [
+            {
+              "title": "java",
+              "path": "/noteBook/backEnd/java/",
+              "children": [
+                {
+                  "title": "api速记",
+                  "path": "/noteBook/backEnd/java/api/"
+                }
+              ]
+            }
+          ]
         },
         {
           "title": "sql",
